@@ -1,0 +1,10 @@
+@model List<Book>
+
+
+@foreach (var book in Model)
+{
+    <div>
+        <p>@book.Title</p>
+        <p>@book.Description</p>
+    </div>
+}
